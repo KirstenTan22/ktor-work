@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.jade.min.css">
+    <title>Hello world!</title>
+</head>
+
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>AI in Healthcare Hackathon</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#prizes">Prizes</a></li>
+            <li><a href="#register" class="contrast">Register</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <section id="title">
+            <h1>AI in Healthcare Hackathon</h1>
+        </section>
+
+        <section id="about">
+            <h2>About</h2>
+
+            <p>
+                The <a href="https://luma.com/qtlx2bly"><strong>AI in Healthcare
+                        Hackathon</strong></a>
+                is a two-day
+                build event
+                run by the <a href="https://leedsaisoc.co.uk/"><strong>Leeds Artificial Intelligence
+                        Society</strong></a>
+                as part of <a href="https://www.leedsaiweek.co.uk/2nd" class="secondary">Leeds AI Week</a>. From 8am on
+                Saturday 24 October to 5pm on Sunday 25 October, students from
+                across the UK will meet at
+                HELIX Leeds to turn real clinical problems into working prototypes.
+            </p>
+
+            <p>
+                You don’t need to be an ML expert, or a programmer at all. Teams of four mix medical students with
+                computer science and engineering
+                students, because the best healthtech ideas come from people who understand the problem working with
+                people who can build the
+                solution. Apply as a team or on your own, and we’ll match you with others.
+            </p>
+
+            <p>
+                The brief is completely open: any healthcare problem, any technology. To get you started, the weekend
+                opens with a talk on clinical
+                challenges in surgery and the patient pathway, followed by hands-on technical workshops. Have a look at
+                the challenge brief for
+                example problem areas and the judging criteria.
+            </p>
+
+            <p>
+                Projects are submitted on <a href="https://leeds-ai-hackathon.devpost.com/">Devpost</a> by 11:30 on
+                Sunday and pitched to a panel of judges from industry, the NHS and academia. Prizes
+                include first and second place and an award for the Most Responsible Use of Data. Places are limited, so
+                <a href="https://luma.com/qtlx2bly">register</a> on Luma to secure
+                yours.
+            </p>
+        </section>
+
+        <div class="grid">
+            <section id="schedule">
+                <h2>Schedule</h2>
+            </section>
+
+            <section id="prizes">
+                <h2>Prizes</h2>
+                <article>
+                    <h3>1st Place</h3>
+                    <p>Sponsored by the School of Computer Science</p>
+                </article>
+                <article>
+                    <h3>2nd place</h3>
+                    <p>Sponsored by the UKRI Centre for Doctoral Training</p>
+                </article>
+                <article>
+                    <h3>Responsible Data Award</h3>
+                    <p>Sponsored by the Leeds Institute for Data Analytics</p>
+                </article>
+            </section>
+        </div>
+
+        <section id="registration-form">
+            <h2>Registration Form</h2>
+            <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"> <br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="teamSize">Team Size:</label>
+                <select name="teamSize" id="teamSize">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select><br>
+                <input type="checkbox" id="conduct" name="conduct" value="conduct" role="">
+                <label for="checkbox" role="switch">I agree to the MLH code of conduct</label><br>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+
+        <section id="faq">
+            <h2>FAQs</h2>
+            <details>
+                <summary role="button">Do I need ML experience?</summary>
+                <p>No</p>
+            </details>
+
+            <details>
+                <summary role="button">Is food provided?</summary>
+                <p>Yes</p>
+            </details>
+        </section>
+    </main>
+</body>
+
+</html>
